@@ -1,0 +1,118 @@
+/* line 3, ../sass/1WD.scss */
+.fwd {
+  padding-top: 50px;
+}
+/* line 6, ../sass/1WD.scss */
+.fwd .navbar .navbar-inner {
+  background: #eee;
+  border-bottom: solid 1px #ccc;
+}
+/* line 9, ../sass/1WD.scss */
+.fwd .navbar .navbar-inner .nav {
+  margin-left: 20px;
+}
+/* line 12, ../sass/1WD.scss */
+.fwd .navbar .navbar-inner .nav li a {
+  padding: 5px;
+  margin: 5px 5px 0 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 16, ../sass/1WD.scss */
+.fwd .navbar .navbar-inner .nav li a:hover {
+  background: #000;
+}
+/* line 22, ../sass/1WD.scss */
+.fwd .navbar .navbar-inner .brand {
+  text-indent: -999px;
+  width: 169px;
+  height: 26px;
+  padding: 0;
+  margin: 5px 0 0 0;
+  background: url(http://cdn1.1stwebdesigner.com/wp-content/themes/1stwd/img/1wd-logo-rd.png) no-repeat center center;
+}
+/* line 32, ../sass/1WD.scss */
+.fwd .hero-unit {
+  background: #464646;
+  color: #fff;
+}
+/* line 35, ../sass/1WD.scss */
+.fwd .hero-unit h1 {
+  text-shadow: black 1px 5px 10px;
+}
+/* line 37, ../sass/1WD.scss */
+.fwd .hero-unit h1 span {
+  color: #F5821F;
+}
+/* line 41, ../sass/1WD.scss */
+.fwd .hero-unit .btn-info {
+  padding: 15px;
+  font-size: 1.2em;
+}
+/* line 45, ../sass/1WD.scss */
+.fwd .hero-unit form {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  background: #6d6b6b;
+}
+/* line 48, ../sass/1WD.scss */
+.fwd .hero-unit form label {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* line 51, ../sass/1WD.scss */
+.fwd .hero-unit form label.checkbox {
+  font-weight: normal;
+  font-size: 1em;
+  color: #2d2d2d;
+}
+/* line 57, ../sass/1WD.scss */
+.fwd .hero-unit form input {
+  background: #464646;
+  border: solid 1px #545252;
+  -webkit-box-shadow: inset #2d2d2d 1px 0px 3px;
+  -moz-box-shadow: inset #2d2d2d 1px 0px 3px;
+  box-shadow: inset #2d2d2d 1px 0px 3px;
+  color: #8b7b6c;
+}
+/* line 65, ../sass/1WD.scss */
+.fwd .thumbnail {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  background: #55626B;
+}
+/* line 68, ../sass/1WD.scss */
+.fwd .thumbnail .caption {
+  position: relative;
+  color: #ccc9c9;
+}
+/* line 71, ../sass/1WD.scss */
+.fwd .thumbnail .caption h5 {
+  position: absolute;
+  top: -19px;
+  left: 10px;
+  font-size: 2em;
+  color: #fff;
+  text-shadow: black 1px 5px 10px;
+}
+/* line 81, ../sass/1WD.scss */
+.fwd footer {
+  padding: 20px;
+  margin-top: 30px;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  background: url(http://cdn1.1stwebdesigner.com/wp-content/themes/1stwd/img/bg_header.jpg) repeat left top;
+}
