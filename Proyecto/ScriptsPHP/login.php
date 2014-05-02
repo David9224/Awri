@@ -3,8 +3,8 @@ session_start();
 $usuario = $_POST['user'];
 $contraseña = $_POST['pass'];
 
-mysql_connect ('mysql.hostinger.com.ar', 'u798245532_proy', 'practica01') or die ('No se puede conectar: ' . mysql_error());
-mysql_select_db ('u798245532_proy');
+$connect = mysql_connect ('localhost', 'root', 'toor') or die ('No se puede conectar: ' . mysql_error());
+mysql_select_db ('proyecto');
 
 $query="SELECT ID_Tipo,Nit_Empresa FROM empleados WHERE Nombre_usuario='".$usuario."' and Password='".$contraseña."'";
 $q= mysql_query($query) or die ('Error en la carga de datos');
@@ -23,7 +23,7 @@ try{
 				header('Location: /Proyecto/AdminSistema/AdminSistema.php');
 				break;
 			case "2":
-				header('Location: /Proyecto/AdminEmpresa/AdminEmpresa.php');
+				header('Location: http://sge.local/SGE/Proyecto/AdminEmpresa/AdminEmpresa.php');
 				break;
 			case "4":
 				header('Location: /Proyecto/Cajero/Cajero.php');

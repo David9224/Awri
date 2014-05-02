@@ -1,0 +1,31 @@
+<div class="container" style="width: 45%; height: 100%; border-radius: 10px 10px 10px 10px; float: left; margin-left: 20px; box-shadow: 0px 2px 10px #000000;">
+    <div style="width: 80%; height: 80%; margin: 0px auto; text-align: center; ">
+        <h1>Agregar Tipo de Platos</h1><br>
+        <form class="form-horizontal" role="form" method="POST">
+            <div class="form-group">
+                <label class="col-lg-2 control-label">Codigo</label>
+                <div class="col-lg-10">
+                    <input type="text" id="idTipoPlato" class="form-control" name="idTipoPlato">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">Nombre</label>
+                <div class="col-lg-10">
+                    <input type="text" id="nombre" class="form-control" name="nombre">
+                </div>
+            </div>
+            <div class="form-group">
+                <div id="BotonEmpleado" class="col-lg-offset-2 col-lg-10">
+                    <button type="submit" class="btn btn-default" 
+                            onclick="enviarDatosTipo();
+                                    return false" style="float: left">
+                        <span class="glyphicon glyphicon-floppy-saved"> Guardar</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="resultado" class="foobar" style="width: 45%; height: 100%; border-radius: 10px 10px 10px 10px; float: right; margin-right: 20px; box-shadow: 0px 2px 10px #000000; overflow: auto;">
+    <script type="text/javascript">actualizar('#resultado', '/Proyecto/ScriptsPHP/ConsultarTipoPlato.php')</script>
+</div>

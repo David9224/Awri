@@ -5,8 +5,8 @@ $password = $_POST['password'];
 $Id_Tipo= $_POST['idTipo'];
 $Nit_Empresa= $_SESSION['nitEmpresa'];
 
-$connect = mysql_connect ('mysql.hostinger.com.ar', 'u798245532_proy', 'practica01') or die ('No se puede conectar: ' . mysql_error());
-mysql_select_db ('u798245532_proy');
+$connect = mysql_connect ('localhost', 'root', 'toor') or die ('No se puede conectar: ' . mysql_error());
+mysql_select_db ('proyecto');
 
 $query="INSERT INTO empresas(Cedula,Nombre_usuario,Pasword,Nit_Empresa,Id_Tipo) VALUES 
 ('".$cedula."','".$nombre."','".$password."','".$Nit_Empresa."','".$Id_Tipo."');";
